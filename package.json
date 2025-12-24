@@ -17,9 +17,9 @@
   "devDependencies": {
     "@nomiclabs/hardhat-truffle5": "^2.0.0",
     "@nomiclabs/hardhat-web3": "^2.0.0",
-    "chai-bin": "^1.1.7",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
+    "chai-bin": "^1.1.7",
     "hardhat": "^2.22.0",
     "lodash": "^4.17.21",
     "rimraf": "^5.0.0",
@@ -27,5 +27,9 @@
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "gitignore": "^0.7.0"
   }
 }
